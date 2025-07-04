@@ -1,0 +1,691 @@
+:root{--font:Arial, Helvetica, sans-serif;
+--primarnaboja:#27807a;
+--sekundarnaboja:#d8a02f;
+--tercijarnaboja:#dafb7ed1;}
+
+html{scroll-behavior: smooth;}
+body {background-color: #fff;
+font-size: 18px;
+margin: 0;
+width: 100%;
+font-family: var(--font);}
+
+header {width: 100%;
+margin: 0;
+background-color:var(--primarnaboja);
+}
+
+header .logo {width: 1000px;
+margin: 0 auto;
+display: flex;
+flex-direction: row;
+justify-content: space-between;}
+
+header .logo img {position: relative;
+top:50px;
+z-index: 2;}
+
+header .logo p {color: #fff;
+font-style: italic;
+font-size: 20px;
+align-self: center;}
+
+nav {background-color: var(--sekundarnaboja);
+width: 100%;
+margin:0;}
+
+nav .navigacija {width: 600px;
+margin:0 auto;}
+
+nav .navigacija ul {width: 100%;
+    margin: 0 auto;
+    display: flex;
+flex-direction: row;
+justify-content: space-between;}
+
+nav .navigacija ul li {list-style: none;}
+
+nav .navigacija ul li:hover {background-color:#ddbb76a9;}
+
+nav .navigacija ul li a {text-decoration: none;
+color: #fff;}
+ 
+nav .navigacija ul li a:hover {font-size: 22px;}
+
+main{width: 100%;
+margin:0;
+background-color: #41ada6;}
+
+main .main {width: 800px;
+margin: 0 auto;
+display: flex;
+flex-direction: row;
+justify-content: space-between;}
+
+main .main .main-pic {width:50%;
+margin: 0 auto;}
+
+main .main .main-pic img {position: relative;
+top:5px;
+left:45px;}
+
+main .main .main-txt {width: 40%;
+margin:0 auto;
+display: flex;
+flex-direction: column;
+justify-content: space-between;}
+
+main .main .main-txt .txt {width: 100%;
+margin:0;
+color:#fff;}
+
+main .main .main-txt .txt h1 {font-style: italic;
+}
+
+.container {width: 100%;
+margin: 0;
+background-color: #d8a02f;}
+
+.container p {visibility: hidden;
+margin:0;
+padding: 10px;}
+
+.hero {width: 100%;
+margin:0;
+}
+
+.hero .hero-cn {width: 80%;
+margin:0 auto;
+font-size: 16px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+gap:20px;
+}
+
+.hero .hero-cn .hero-txt {width: 50%;
+margin:0;
+background-color: #d8a02f;
+border-radius: 5px;
+height: fit-content;
+position:relative;
+left: 100px;
+top:30px;
+color: #fff;
+padding: 5px;
+text-align: justify;
+
+}
+
+.hero .hero-cn .hero-txt h1 {font-style: italic;}
+
+.hero .hero-cn .hero-txt button {margin: 0 250px;
+border-radius: 5px;
+border: 3px solid #fff;
+background-color: #cfab64fb;
+font-size: 20px;
+font-style: bold;
+padding: 0;
+}
+
+.hero .hero-cn .hero-txt button:hover {background-color: #fff;}
+.hero .hero-cn .hero-txt button p {margin: 0;}
+.hero .hero-cn .hero-txt button a {text-decoration: none;
+color: #fff;}
+
+.hero .hero-cn .hero-txt button a:hover {color: #d8a02f;}
+
+.hero .hero-cn .hero-pic {position:relative;
+top: 10px;
+right: 150px;}
+
+.hero .hero-cn .hero-pic img {border-radius: 150px;}
+
+
+#kontakt {background-color: #27807a;
+margin:0;
+width: 100%;
+position: relative;
+top: 50px;}
+
+#kontakt .footer {width: 60%;
+margin: 0 auto;
+display: flex;
+flex-direction: row;
+color: #fff;
+justify-content: space-between;}
+
+#kontakt .footer .privacy { width: 50%;}
+
+#kontakt .footer .privacy p {display: inline-block;
+margin:55px;
+}
+
+#kontakt .footer .contacts {display: flex;
+flex-direction: column;
+justify-content: space-between;
+width: 30%;
+}
+
+#kontakt .footer .contacts p {display: inline-block;}
+
+@media only screen and (min-width:1025px) and (max-width:1280) { html{scroll-behavior: smooth;}
+body {background-color: #fff;
+font-size: 18px;
+margin: 0;
+width: 100%;
+font-family: var(--font);
+overflow-x: hidden;}
+
+header {width: 100%;
+margin: 0;
+background-color:var(--primarnaboja);
+}
+
+header .logo {width: 1000px;
+margin: 0 auto;
+display: flex;
+flex-direction: row;
+justify-content: space-between;}
+
+header .logo img {position: relative;
+top:50px;
+z-index: 2;}
+
+header .logo p {color: #fff;
+font-style: italic;
+font-size: 20px;
+align-self: center;
+visibility: collapse;}
+
+nav {background-color: var(--sekundarnaboja);
+width: 100%;
+margin:0;}
+
+nav .navigacija {width: 600px;
+margin:0 auto;}
+
+nav .navigacija ul {width: 100%;
+    margin: 0 auto;
+    display: flex;
+flex-direction: row;
+justify-content: space-between;}
+
+nav .navigacija ul li {list-style: none;}
+
+nav .navigacija ul li:hover {background-color:#ddbb76a9;}
+
+nav .navigacija ul li a {text-decoration: none;
+color: #fff;}
+ 
+nav .navigacija ul li a:hover {font-size: 22px;}
+
+main{width: 100%;
+margin:0;
+background-color: #41ada6;}
+
+main .main {width: 800px;
+margin: 0 auto;
+display: flex;
+flex-direction: row;
+justify-content: space-between;}
+
+main .main .main-pic {width:50%;
+margin: 0 auto;}
+
+main .main .main-pic img {position: relative;
+top:5px;
+left:45px;}
+
+main .main .main-txt {width: 40%;
+margin:0 auto;
+display: flex;
+flex-direction: column;
+justify-content: space-between;}
+
+main .main .main-txt .txt {width: 100%;
+margin:0;
+color:#fff;}
+
+main .main .main-txt .txt h1 {font-style: italic;
+}
+
+.container {width: 100%;
+margin: 0;
+background-color: #d8a02f;}
+
+.container p {visibility: hidden;
+margin:0;
+padding: 10px;}
+
+.hero {width: 100%;
+margin:0;
+}
+
+.hero .hero-cn {width: 100%;
+margin:0 auto;
+font-size: 16px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.hero .hero-cn .hero-txt {width: 60%;
+margin:0;
+background-color: #d8a02f;
+border-radius: 5px;
+height: fit-content;
+position:relative;
+left: 10px;
+top:30px;
+color: #fff;
+padding: 5px;
+text-align: justify;
+
+}
+
+.hero .hero-cn .hero-txt h1 {font-style: italic;}
+
+.hero .hero-cn .hero-txt button {margin: 0 250px;
+border-radius: 5px;
+border: 3px solid #fff;
+background-color: #cfab64fb;
+font-size: 20px;
+font-style: bold;
+padding: 0;
+}
+
+.hero .hero-cn .hero-txt button:hover {background-color: #fff;}
+.hero .hero-cn .hero-txt button p {margin: 0;}
+.hero .hero-cn .hero-txt button a {text-decoration: none;
+color: #fff;}
+
+.hero .hero-cn .hero-txt button a:hover {color: #d8a02f;}
+
+.hero .hero-cn .hero-pic {position: relative;
+    top:10px;
+    right: 10px;
+    }
+
+.hero .hero-cn .hero-pic img {border-radius: 150px;}
+
+
+#kontakt {background-color: #27807a;
+margin:0;
+width: 100%;
+position: relative;
+top: 50px;}
+
+#kontakt .footer {width: 100%;
+margin: 0 auto;
+display: flex;
+flex-direction: column-reverse;
+color: #fff;
+justify-content: space-between;}
+
+#kontakt .footer .privacy { width: 100%;
+background-color: #d8a02f;}
+
+#kontakt .footer .privacy p {
+margin:55px;
+}
+
+#kontakt .footer .contacts {display: flex;
+flex-direction: column;
+justify-content: space-between;
+width: 100%;
+}
+
+#kontakt .footer .contacts p {display: inline-block;}
+
+}
+
+
+
+@media only screen and (min-width:769px) and (max-width:1024px) {
+
+html{scroll-behavior: smooth;}
+body {background-color: #fff;
+font-size: 18px;
+margin: 0;
+width: 100%;
+font-family: var(--font);
+overflow-x: hidden;}
+
+header {width: 100%;
+margin: 0;
+background-color:var(--primarnaboja);
+}
+
+header .logo {width: 1000px;
+margin: 0 auto;
+display: flex;
+flex-direction: row;
+justify-content: space-between;}
+
+header .logo img {position: relative;
+top:50px;
+z-index: 2;}
+
+header .logo p {color: #fff;
+font-style: italic;
+font-size: 20px;
+align-self: center;
+visibility: collapse;}
+
+nav {background-color: var(--sekundarnaboja);
+width: 100%;
+margin:0;}
+
+nav .navigacija {width: 600px;
+margin:0 auto;}
+
+nav .navigacija ul {width: 100%;
+    margin: 0 auto;
+    display: flex;
+flex-direction: row;
+justify-content: space-between;}
+
+nav .navigacija ul li {list-style: none;}
+
+nav .navigacija ul li:hover {background-color:#ddbb76a9;}
+
+nav .navigacija ul li a {text-decoration: none;
+color: #fff;}
+ 
+nav .navigacija ul li a:hover {font-size: 22px;}
+
+main{width: 100%;
+margin:0;
+background-color: #41ada6;}
+
+main .main {width: 800px;
+margin: 0 auto;
+display: flex;
+flex-direction: row;
+justify-content: space-between;}
+
+main .main .main-pic {width:50%;
+margin: 0 auto;}
+
+main .main .main-pic img {position: relative;
+top:5px;
+left:45px;}
+
+main .main .main-txt {width: 40%;
+margin:0 auto;
+display: flex;
+flex-direction: column;
+justify-content: space-between;}
+
+main .main .main-txt .txt {width: 100%;
+margin:0;
+color:#fff;}
+
+main .main .main-txt .txt h1 {font-style: italic;
+}
+
+.container {width: 100%;
+margin: 0;
+background-color: #d8a02f;}
+
+.container p {visibility: hidden;
+margin:0;
+padding: 10px;}
+
+.hero {width: 100%;
+margin:0;
+}
+
+.hero .hero-cn {width: 100%;
+margin:0 auto;
+font-size: 16px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.hero .hero-cn .hero-txt {width: 60%;
+margin:0;
+background-color: #d8a02f;
+border-radius: 5px;
+height: fit-content;
+position:relative;
+left: 10px;
+top:30px;
+color: #fff;
+padding: 5px;
+text-align: justify;
+
+}
+
+.hero .hero-cn .hero-txt h1 {font-style: italic;}
+
+.hero .hero-cn .hero-txt button {margin: 0 250px;
+border-radius: 5px;
+border: 3px solid #fff;
+background-color: #cfab64fb;
+font-size: 20px;
+font-style: bold;
+padding: 0;
+}
+
+.hero .hero-cn .hero-txt button:hover {background-color: #fff;}
+.hero .hero-cn .hero-txt button p {margin: 0;}
+.hero .hero-cn .hero-txt button a {text-decoration: none;
+color: #fff;}
+
+.hero .hero-cn .hero-txt button a:hover {color: #d8a02f;}
+
+.hero .hero-cn .hero-pic {position: relative;
+    top:10px;
+    right: 10px;
+    }
+
+.hero .hero-cn .hero-pic img {border-radius: 150px;}
+
+
+#kontakt {background-color: #27807a;
+margin:0;
+width: 100%;
+position: relative;
+top: 50px;}
+
+#kontakt .footer {width: 100%;
+margin: 0 auto;
+display: flex;
+flex-direction: column-reverse;
+color: #fff;
+justify-content: space-between;}
+
+#kontakt .footer .privacy { width: 100%;
+background-color: #d8a02f;}
+
+#kontakt .footer .privacy p {
+margin:55px;
+}
+
+#kontakt .footer .contacts {display: flex;
+flex-direction: column;
+justify-content: space-between;
+width: 100%;
+}
+
+#kontakt .footer .contacts p {display: inline-block;}
+}
+
+@media only screen and (max-width:768px) {html{scroll-behavior: smooth;}
+body {background-color: #fff;
+font-size: 18px;
+margin: 0;
+width: 100%;
+font-family: var(--font);
+overflow-x: hidden;}
+
+header {width: 100%;
+margin: 0;
+background-color:var(--primarnaboja);
+}
+
+header .logo {width:100%;
+margin: 0 auto;
+display: flex;
+flex-direction: row;
+justify-content: space-between;}
+
+header .logo img {position: relative;
+
+z-index: 2;
+left: 200px;}
+
+header .logo p {color: #fff;
+font-style: italic;
+font-size: 20px;
+align-self: center;
+visibility: collapse;}
+
+nav {background-color: var(--sekundarnaboja);
+width: 100%;
+margin:0;
+}
+
+nav .navigacija {width: 100%;
+margin:0 ;
+}
+
+nav .navigacija ul {width: 70%;
+margin: 0 auto;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+height: 70px;
+font-size: 14px;
+}
+
+nav .navigacija ul li {list-style: none;
+margin-top: 50px;}
+
+
+nav .navigacija ul li:hover {background-color:#ddbb76a9;}
+
+nav .navigacija ul li a {text-decoration: none;
+color: #fff;}
+ 
+nav .navigacija ul li a:hover {font-size: 18px;}
+
+main{width: 100%;
+margin:0;
+background-color: #41ada6;}
+
+main .main {width: 100%;
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+justify-content: space-between;}
+
+main .main .main-pic {width:100%;
+margin: 0 auto;}
+
+
+
+main .main .main-txt {width:80%;
+margin:0 auto;
+display: flex;
+flex-direction: column;
+justify-content: space-between;}
+
+main .main .main-txt .txt {width: 80%;
+margin:0;
+color:#fff;}
+
+main .main .main-txt .txt h1 {font-style: italic;
+}
+
+.container {width: 100%;
+margin: 0;
+background-color: #d8a02f;}
+
+.container p {visibility: hidden;
+margin:0;
+padding: 10px;}
+
+.hero {width: 100%;
+margin:0;
+}
+
+.hero .hero-cn {width: 100%;
+margin:0 auto;
+font-size: 16px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+.hero .hero-cn .hero-txt {width:80%;
+margin:0 auto;
+background-color: #d8a02f;
+border-radius: 5px;
+height: fit-content;
+position:relative;
+left: 10px;
+top:30px;
+color: #fff;
+padding: 5px;
+text-align: justify;
+
+}
+
+.hero .hero-cn .hero-txt h1 {font-style: italic;}
+
+.hero .hero-cn .hero-txt button {margin: 0 150px;
+border-radius: 5px;
+border: 3px solid #fff;
+background-color: #cfab64fb;
+font-size: 18px;
+font-style: bold;
+padding: 0;
+}
+
+.hero .hero-cn .hero-txt button:hover {background-color: #fff;}
+.hero .hero-cn .hero-txt button p {margin: 0;}
+.hero .hero-cn .hero-txt button a {text-decoration: none;
+color: #fff;}
+
+.hero .hero-cn .hero-txt button a:hover {color: #d8a02f;}
+
+.hero .hero-cn .hero-pic {width: 100%;
+    }
+
+.hero .hero-cn .hero-pic img {position: relative;
+left: 250px;
+top: 20px;}
+
+
+
+#kontakt {background-color: #27807a;
+margin:0;
+width: 100%;
+position: relative;
+top: 50px;}
+
+#kontakt .footer {width: 100%;
+margin: 0 auto;
+display: flex;
+flex-direction: column-reverse;
+color: #fff;
+justify-content: space-between;}
+
+#kontakt .footer .privacy { width: 100%;
+background-color: #d8a02f;}
+
+#kontakt .footer .privacy p {
+margin:55px;
+}
+
+#kontakt .footer .contacts {display: flex;
+flex-direction: column;
+justify-content: space-between;
+width: 100%;
+}
+
+#kontakt .footer .contacts p {display: inline-block;}}
